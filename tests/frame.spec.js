@@ -36,7 +36,7 @@ test('Frame Handle', async ({page}) => {
 
 });
 
-test.only('Nested Frame', async ({page}) => {
+test('Nested Frame', async ({page}) => {
 
     await page.goto("https://www.hyrtutorials.com/p/frames-practice.html#google_vignette");
     const frame=page.frameLocator("#frm1");
