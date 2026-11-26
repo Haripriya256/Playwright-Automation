@@ -56,6 +56,7 @@ test.only('Nested Frame', async ({page}) => {
 
     //frame1
     await frame3_1.locator("//select[@id='course']").selectOption({value:'java'});
+    //await frame3_1.locator("//select[@id='course']").selectOption({value:'java'});
 
     //frame2
     await frame3_2.locator("#firstName").fill("Haripriya");
